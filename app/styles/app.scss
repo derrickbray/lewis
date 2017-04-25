@@ -11,3 +11,21 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'logo';
 @import 'nav';
 @import 'hero';
+
+.featured {
+  padding: 2rem 4rem;
+}
+
+.filter-box {
+  display: flex;
+
+
+  &__item {
+    margin: 0 0.5rem;
+    color: $c-dark-text;
+
+    &:hover {
+      border-bottom: $c-red 0.2rem solid;
+    }
+  }
+}
