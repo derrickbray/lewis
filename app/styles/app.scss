@@ -4,7 +4,7 @@ $c-dark-text: #4d4f56;
 $c-light-text: #b3b6bf;
 $c-white: #fff;
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'logo';
@@ -16,4 +16,40 @@ $c-white: #fff;
   background-image: url('../images/lewis-hero.png');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+
+  &__tag {
+    color: $c-white;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.artist {
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.4rem;
+  outline: none;
+  color: $c-light-text;
+  font-size: 1.5rem;
+}
+
+.drop {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100%/3);
 }
