@@ -4,3 +4,25 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+
+.hero {
+  height: 85vh;
+  background-image: url('../images/lewis-hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: relative;
+
+  &-text {
+    position: absolute;
+    right: 10px;
+    bottom: 26px;
+  }
+}
