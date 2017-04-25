@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-box {
+  padding: 0.6rem;
+
+  &__link {
+    margin-right: 2rem;
+    color: $c-white;
+    text-decoration: none;
+  }
+
+  &__btn {
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.4rem;
+    background: $c-white;
+    color: $c-dark-text;
+    text-decoration: none;
+  }
+}
