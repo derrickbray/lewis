@@ -24,11 +24,11 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     margin-right: 1rem;
     border-bottom: transparent 0.2rem solid;
     color: $c-dark-text;
-
-    &:hover {
-      border-bottom: $c-red 0.2rem solid;
-    }
   }
+}
+
+.active {
+  border-bottom: $c-red 0.2rem solid;
 }
 
 .grid {
@@ -72,4 +72,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
       color: $c-dark-text;
     }
   }
+}
+
+.discover {
+  text-align: center;
 }
