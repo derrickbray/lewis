@@ -15,5 +15,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'footer';
 
 .hide {
-  display: none;
+  @media(max-width: 600px) {
+    display: none;
+  }
 }

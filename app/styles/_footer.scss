@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-between;
 
+    @media(max-width: 660px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
 
   &-links {

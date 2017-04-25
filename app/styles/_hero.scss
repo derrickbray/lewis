@@ -17,10 +17,15 @@
     color: $c-white;
     font-size: 3.5rem;
     text-align: center;
+
+    @media(max-width: 800px) {
+      font-size: 2.5rem;
+    }
   }
 }
 
 .artist {
+  flex-grow: 1;
   width: 100%;
   padding: 1rem;
   border: 0;
@@ -28,29 +33,52 @@
   outline: none;
   color: $c-light-text;
   font-size: 1.5rem;
+  @media(max-width: 530px) {
+    font-size: 1rem;
+  }
 }
 
 .drop {
   display: flex;
-  margin: 2rem -0.5rem 0;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  @media(max-width: 720px) {
+
+  }
 }
 
 .dropdown {
   display: flex;
+  flex-grow: 1;
   justify-content: space-between;
   width: calc(100% / 3 - 1rem);
-  margin: 0 0.5rem;
+  min-width: 6rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 0.4rem;
   background: $c-white;
   color: $c-light-text;
   font-size: 1.5rem;
+
+  &:last-of-type {
+    margin-left: 0.5rem;
+  }
+
+  @media(max-width: 720px) {
+    width: calc(100% / 2 - 2rem);
+  }
+  @media(max-width: 530px) {
+    font-size: 1rem;
+  }
 }
 
 .red-btn {
+  flex-grow: 1;
   width: calc(100% / 3 - 1rem);
+  min-width: 10rem;
   margin: 0 0.5rem;
-  padding: 1rem;
+  // padding: 1rem;
   border: 0;
   border-radius: 0.4rem;
   outline: none;
