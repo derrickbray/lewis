@@ -1,6 +1,7 @@
 .hero {
   height: 100vh;
   background-image: url('../images/lewis-hero.png');
+  background-position: right center;
   background-size: cover;
 }
 
@@ -42,10 +43,6 @@
   display: flex;
   flex-wrap: wrap;
   margin: 2rem 0;
-
-  @media(max-width: 720px) {
-
-  }
 }
 
 .dropdown {
@@ -54,7 +51,7 @@
   justify-content: space-between;
   width: calc(100% / 3 - 1rem);
   min-width: 6rem;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 0.4rem;
   background: $c-white;
@@ -75,14 +72,18 @@
 
 .red-btn {
   flex-grow: 1;
-  width: calc(100% / 3 - 1rem);
+  width: calc(100% / 3 - 0.5rem);
   min-width: 10rem;
-  margin: 0 0.5rem;
-  // padding: 1rem;
+  margin-left: 0.5rem;
+  padding: 1rem;
   border: 0;
   border-radius: 0.4rem;
   outline: none;
   background: $c-red;
   color: $c-white;
   font-size: 1.5rem;
+
+  @media(max-width: 720px) {
+    margin: 2rem 0 0;
+  }
 }
