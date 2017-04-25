@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  border-top: $c-light-text 1px solid;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &-links {
+    display: flex;
+    color: $c-light-text;
+
+    &__item {
+      margin-right: 1rem;
+    }
+
+    &__social {
+      width: 2rem;
+      margin-left: 1rem;
+      padding: 0.5rem;
+      border-radius: 50%;
+      background: $c-light-text;
+      color: $c-white;
+    }
+  }
+}
