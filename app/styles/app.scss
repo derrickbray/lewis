@@ -3,6 +3,7 @@
 $c-dark-text: #4d4f56;
 $c-light-text: #b3b6bf;
 $c-white: #fff;
+$c-red: #ff3434;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
@@ -15,7 +16,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   padding: 2rem 4rem;
   background-image: url('../images/lewis-hero.png');
   background-repeat: no-repeat;
-  background-position: center;
+  // background-position: center top;
 }
 
 .hero-content {
@@ -23,12 +24,13 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   flex-direction: column;
   justify-content: center;
   width: 70%;
-  height: 100%;
+  height: 80%;
   margin: auto;
 
   &__tag {
+    margin-top: 0;
     color: $c-white;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
   }
 }
@@ -45,11 +47,29 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .drop {
   display: flex;
-  margin-top: 2rem;
+  // margin-top: 2rem;
+  margin: 2rem -0.5rem 0;
 }
 
 .dropdown {
   display: flex;
   justify-content: space-between;
-  width: calc(100%/3);
+  width: calc(100% / 3 - 1rem);
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: $c-white;
+  color: $c-light-text;
+}
+
+.find {
+  width: calc(100% / 3 - 1rem);
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.4rem;
+  outline: none;
+  background: $c-red;
+  color: $c-white;
+  font-size: 1rem;
 }
