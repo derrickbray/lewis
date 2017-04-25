@@ -1,0 +1,65 @@
+.featured {
+  padding: 2rem 4rem;
+}
+
+.filter-box {
+  display: flex;
+
+
+  &__item {
+    margin-right: 1rem;
+    border-bottom: transparent 0.2rem solid;
+    color: $c-dark-text;
+  }
+}
+
+.active {
+  border-bottom: $c-red 0.2rem solid;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem -1rem;
+}
+
+.card {
+  flex-grow: 1;
+  margin: 0.5rem;
+
+  &-img {
+    width: 100%;
+  }
+
+  &-content {
+    &__full {
+      width: 100%;
+      border-bottom: $c-light-text 1px solid;
+    }
+
+    &__bottom {
+      display: flex;
+    }
+
+    &__half {
+      width: 50%;
+
+      &:last-of-type {
+        padding-left: 1rem;
+        border-left: $c-light-text 1px solid;
+      }
+    }
+
+    &__tag {
+      color: $c-light-text;
+    }
+
+    &__value {
+      color: $c-dark-text;
+    }
+  }
+}
+
+.discover {
+  text-align: center;
+}
