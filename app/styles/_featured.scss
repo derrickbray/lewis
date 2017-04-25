@@ -1,5 +1,5 @@
 .featured {
-  padding: 2rem 4rem;
+  padding: 2rem 0;
 }
 
 .filter-box {
@@ -20,11 +20,12 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem -1rem;
+  margin: 4rem -0.5rem;
 }
 
 .card {
   flex-grow: 1;
+  width: calc(100% / 3 - 1rem);
   margin: 0.5rem;
 
   &-img {
