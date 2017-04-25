@@ -50,11 +50,26 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
       width: 100%;
       border-bottom: $c-light-text 1px solid;
     }
+
     &__bottom {
       display: flex;
     }
+
     &__half {
       width: 50%;
+
+      &:last-of-type {
+        padding-left: 1rem;
+        border-left: $c-light-text 1px solid;
+      }
+    }
+
+    &__tag {
+      color: $c-light-text;
+    }
+
+    &__value {
+      color: $c-dark-text;
     }
   }
 }
