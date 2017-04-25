@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   background-image: url('../images/lewis-hero.png');
-  background-position: right center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -42,7 +42,7 @@
 .drop {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .dropdown {
@@ -84,6 +84,6 @@
   font-size: 1.5rem;
 
   @media(max-width: 720px) {
-    margin: 2rem 0 0;
+    margin: 1rem 0 0;
   }
 }
