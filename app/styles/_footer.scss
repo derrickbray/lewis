@@ -19,10 +19,14 @@
 
     &__item {
       margin-right: 1rem;
+
+      @media(max-width: 660px) {
+        font-size: 0.9rem;
+      }
     }
 
     &__social {
-      width: 2rem;
+      width: 2.1rem;
       margin-left: 1rem;
       padding: 0.5rem;
       border-radius: 50%;
