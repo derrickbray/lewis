@@ -20,7 +20,7 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem -0.5rem;
+  margin: 2rem -0.5rem;
 }
 
 .card {
@@ -54,10 +54,13 @@
     }
 
     &__tag {
+      margin-bottom: 0.5rem;
       color: $c-light-text;
+      font-size: 0.8rem;
     }
 
     &__value {
+      margin-top: 0.5rem;
       color: $c-dark-text;
     }
   }
