@@ -21,7 +21,7 @@ body {
   max-width: 65rem;
   margin: 0 auto;
 
-  @media(max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     padding: 0 2rem;
   }
 }
