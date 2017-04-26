@@ -19,5 +19,10 @@
     background: $c-white;
     color: $c-dark-text;
     text-decoration: none;
+
+    &:hover {
+      background: $c-dark-text;
+      color: $c-white;
+    }
   }
 }

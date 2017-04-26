@@ -5,16 +5,19 @@
 .filter-box {
   display: flex;
 
+  @media(max-width: 600px) {
+    justify-content: space-around;
+  }
 
   &__item {
     margin-right: 1rem;
     border-bottom: transparent 0.2rem solid;
     color: $c-dark-text;
-  }
-}
 
-.active {
-  border-bottom: $c-red 0.2rem solid;
+    &:hover {
+      border-bottom: $c-red 0.2rem solid;
+    }
+  }
 }
 
 .grid {
