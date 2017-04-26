@@ -31,14 +31,29 @@
         <div class="input-box">
           <input type="text" placeholder="Enter your favorite artist or genre" class="artist">
           <div class="drop">
-            <div class="dropdown">
-              <div class="dropdown-text">Location</div>
-              <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
-            </div>
-            <div class="dropdown">
-              <div class="dropdown-text">Budget</div>
-              <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
-            </div>
+
+            <select class="dropdown" required>
+              <option value="" disabled selected>
+                <div class="dropdown-text">Location</div>
+                <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
+              </option>
+              <option value="nashville">Nashville, TN</option>
+              <option value="atlanta">Atlanta, GA</option>
+              <option value="birmingham">Birmingham, AL</option>
+            </select>
+
+
+            <select class="dropdown" required>
+              <option value="" disabled selected>
+                <div class="dropdown-text">Budget</div>
+                <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
+              </option>
+              <option value="1">$15-50</option>
+              <option value="2">$50-100</option>
+              <option value="3">$100 and up</option>
+            </select>
+
+
             <button class="red-btn">Find Events</button>
           </div>
         </div>

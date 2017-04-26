@@ -25,3 +25,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     width: 100%;
   }
 }
+
+option[value=""][disabled] {
+  display: none;
+}
