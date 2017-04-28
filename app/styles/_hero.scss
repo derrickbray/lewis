@@ -9,14 +9,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 50%;
   height: 80%;
   margin: auto;
 
   &__tag {
     margin-top: 0;
     color: $c-white;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
 
     @media only screen and (max-width: 800px) {
