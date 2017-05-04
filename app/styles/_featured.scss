@@ -4,6 +4,7 @@
 
 .filter-box {
   display: flex;
+  position: relative;
 
   @media only screen and (max-width: 600px) {
     justify-content: space-around;
@@ -14,7 +15,10 @@
     border-bottom: transparent 0.2rem solid;
     color: $c-dark-text;
 
-    &:hover {
+    &-line {
+      position: absolute;
+      bottom: 0;
+      width: 4%;
       border-bottom: $c-red 0.2rem solid;
     }
   }
