@@ -42,7 +42,11 @@
   @media only screen and (max-width: 530px) {
     font-size: 0.8rem;
   }
+  &::placeholder {
+    color: $c-light-text;
+  }
 }
+
 
 .drop {
   display: flex;
