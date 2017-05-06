@@ -30,7 +30,6 @@
     }
 
     &__social {
-      width: 2.1rem;
       margin-left: 1rem;
       padding: 0.5rem;
       border-radius: 50%;
@@ -42,4 +41,9 @@
       }
     }
   }
+}
+
+.face {
+  width: 1rem;
+  margin-left: 4px;
 }
