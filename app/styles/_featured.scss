@@ -6,10 +6,6 @@
   display: flex;
   position: relative;
 
-  @media only screen and (max-width: 600px) {
-    justify-content: space-around;
-  }
-
   &__item {
     margin-right: 1rem;
     border-bottom: transparent 0.2rem solid;
@@ -18,7 +14,7 @@
     &-line {
       position: absolute;
       bottom: 0;
-      width: 4%;
+      width: 35px;
       border-bottom: $c-red 0.2rem solid;
     }
   }
